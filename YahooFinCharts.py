@@ -3,8 +3,6 @@
 
 import requests as req
 import os, bs4
-from selenium import webdriver
-
 
 url = input('Enter Yahoo Finance URL: ')
 
