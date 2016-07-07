@@ -19,7 +19,7 @@ try:
     iselem.click()
     
 except NoSuchElementException:
-    print('This fucker does not use xbrl')
+    print('Company does not use XBRL')
     browser.quit()
     raise SystemExit
 
